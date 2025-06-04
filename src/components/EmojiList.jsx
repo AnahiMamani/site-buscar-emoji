@@ -1,8 +1,8 @@
 import EmojiItem from "./EmojiItem";
 
 function EmojiList({ emojis }) {
-    if (emojis.length === 0) {
-        return <p>Nenhum emoji encontrado 😢</p>;
+    if (!emojis || emojis.length === 0) {
+        return null; // Ou um texto tipo "Nenhum resultado" se quiser
     }
 
     return (

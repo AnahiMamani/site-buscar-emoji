@@ -5,7 +5,6 @@ function SearchBar({ search, onSearchChange }) {
             placeholder="Digite o nome do emoji..."
             value={search}
             onChange={(e) => onSearchChange(e.target.value)}
-            style={{ width: "100%", padding: "0.5rem", marginBottom: "1rem" }}
         />
     );
 }
