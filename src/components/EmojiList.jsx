@@ -6,7 +6,7 @@ function EmojiList({ emojis }) {
     }
 
     return (
-        <ul style={{ listStyle: "none", padding: 0 }}>
+        <ul style={{ listStyle: "none", padding: 0, gap: 10}}>
             {emojis.map((emoji, index) => (
                 <EmojiItem key={index} emoji={emoji} />
             ))}

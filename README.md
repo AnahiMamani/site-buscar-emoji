@@ -1,12 +1,27 @@
-# React + Vite
+# 🔍 Busca de Emojis para Commits Git
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação React que permite buscar emojis comuns utilizados em mensagens de commit no Git, facilitando a escolha do emoji certo para representar a intenção do commit.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔎 Busca dinâmica por emoji, código (ex: `:bug:`) ou descrição (ex: "correção de bug")
+- 📋 Exibição de:
+  - Emoji visual
+  - Código no formato Gitmoji
+  - Descrição de quando utilizar no commit
 
-## Expanding the ESLint configuration
+## 👨‍💻 Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/) — Framework para construção de interfaces web
+- JavaScript — Linguagem de programação
+- CSS — Estilização da interface
+
+## 🧠 Como funciona
+
+- O usuário digita no campo de busca
+- A lista de emojis é filtrada com base no **código** (`:sparkles:`) ou na **descrição** ("nova funcionalidade")
+- Somente emojis usados para **commits semânticos** são listados
+
+## ✍️ Feito por
+
+- Anahi Narieli Guarachi Mamani
